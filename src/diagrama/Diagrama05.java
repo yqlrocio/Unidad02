@@ -16,12 +16,11 @@ public class Diagrama05 {
 		num1 = reader.nextInt(); 
 							
 		// Crear conditional para ver si el número introducido es positivo o negativo
-		if (num1 > 0) {
+		if (num1 >= 0) {
 		System.out.println("Positivo");
-		System.out.println("Negativo");
-			}else if (num1 == 0 ) { 
-				System.out.println("Positivo");	
-			}
+		} else if (num1<0) {
+			System.out.println("Negativo");
+		}
 
 		// Cerrar Scanner
 		reader.close();

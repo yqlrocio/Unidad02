@@ -21,8 +21,9 @@ public class Diagrama06 {
 							
 				// Crear conditional para ver cual de los números introducido es mayor
 				if (num1 > num2) {
-					System.out.println("1º num1 2º num2");
-					System.out.println("1º num2 2º num1");
+					System.out.println("1º " + num1 + " 2º " + num2);
+				} else {	
+					System.out.println("1º" + num2 + " 2º" + num1);
 				}
 
 				// Cerrar Scanner
