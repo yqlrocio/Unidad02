@@ -54,7 +54,7 @@ public class Diagrama11 {
         System.out.println("Salario Neto: " + salNeto);
         System.out.println("Las tasas son: " + tasas);
         
-        
+        // Close Scanner
         sc.close(); 
         
 		}
