@@ -23,18 +23,17 @@ public class Diagrama08 {
 		System.out.println("Introduce número 3: ");
 		num3 = reader.nextInt();
 		
-		// Crear condición 
-		if (num1>num2 || num1>num3){
+		// Crear condición para mostrar el mayor
+		if (num1>num2 && num1>num3){
 			System.out.println("Es mayor: " + num1);
-		} else if (num2>num1 || num2>num3){
+		} else if (num2>num1 && num2>num3){
 			System.out.println("Es mayor: " + num2);
-		}
-		
-		// Mostrar en pantalla cuál de los tres números introducidos por el usuario es el mayor
-		
-		
+		} else {
+				System.out.println("Es mayor: " + num3);
+			}
+	
 		// Cerrar Scanner
-		reader.close();
+		reader.close(); 
 
 	}
 
