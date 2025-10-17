@@ -7,7 +7,7 @@ public class Ejercicio06 {
 	public static void main(String[] args) {
 		
 		// Crear Scanner 
-		Scanner reader = new Scanner(System.in);
+		Scanner reader = new Scanner(System.in); 
 		
 		// Craer variables
 		int num1; 
@@ -30,6 +30,9 @@ public class Ejercicio06 {
 		} else if (num1 + num2 != num3 || num2 + num3 != num1 || num3 + num1 != num2) { 
 			System.out.println("La suma de ninguno de los dos números es igual al otro número");
 		}
+		
+		// Cerrar Scanner 
+		reader.close(); 
 	}
 
 }
