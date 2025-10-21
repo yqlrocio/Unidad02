@@ -6,7 +6,7 @@ public class Ejercicio04 {
 
 	public static void main(String[] args) {
 		
-		// Crear Scaner 
+		// Crear Scanner 
 		Scanner reader = new Scanner(System.in); 
 
 		// Crear variable
@@ -21,7 +21,6 @@ public class Ejercicio04 {
 		tirada1 = reader.next(); 
 		tirada2 = reader.next(); 
 		
-		// Crear condicional para que 
 		// Crear un Switch para darle valores numéricos a los valores introducidos por el usaurio
 		switch (tirada1) {
 		case "uno" -> valor1=1; 
@@ -48,7 +47,7 @@ public class Ejercicio04 {
 		suma = valor1 + valor2; 
 		System.out.println("La suma es: " + suma);
 		
-	// Cerrar Scanner
-	reader.close(); 
+		// Cerrar Scanner
+		reader.close(); 
 }
 }
