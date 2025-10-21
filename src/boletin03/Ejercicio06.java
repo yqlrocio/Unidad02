@@ -20,15 +20,16 @@ public class Ejercicio06 {
 
 		        // Validar mes
 		        if (mes < 1 || mes > 12) {
-		            System.out.println("Mes no válido. Debe estar entre 1 y 12.");
-		            return;
+		            System.out.println("Mes no válido. Debe estar entre 1 y 12.");  
+		        } else {
+		        	System.out.println("ERROR: Introduce un valor entre 1-12"); 
 		        }
 
 		        // Pedir al usuario que introduzca el año
 		        System.out.print("Introduce el año: ");
 		        año = reader.nextInt();
 
-		        // Comprobar si es bisiesto
+		        // Comprobar si es bisiesto y mostrar en pantalla
 		        if ((año % 4 == 0 && año % 100 != 0) || (año % 400 == 0)) {
 		            esBisiesto = true;
 		        }
@@ -53,6 +54,7 @@ public class Ejercicio06 {
 		            System.out.println("El año " + año + (esBisiesto ? " es bisiesto." : " no es bisiesto."));
 		        }
 
+		        // Cerrar Scanner
 		        reader.close();
 		    }
 		}
