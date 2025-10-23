@@ -5,6 +5,10 @@ import java.util.Scanner;
 public class Ejercicio03 {
 
 	public static void main(String[] args) {
+		/*
+		 * PRUEBAS A REALIZAR: 
+		 * 1º) Números de DNI
+		 */
 		
 		// Crear Scanner 
 		Scanner reader = new Scanner(System.in);

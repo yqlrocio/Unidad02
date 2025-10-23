@@ -5,6 +5,11 @@ import java.util.Scanner;
 public class Ejercicio02 {
 
 	public static void main(String[] args) {
+		/*
+		 * PRUEBAS A REALIZAR: 
+		 * 1º) Números positivos
+		 * 2º) Números negativos
+		 */
 		
 		// Crear Scanner
 		Scanner reader = new Scanner(System.in);
