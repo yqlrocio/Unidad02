@@ -33,7 +33,7 @@ public class Ejercicio01 {
 			System.out.println("El número es capicúa ");
 		}else if (num > 1000 && num < 10000 && num/1000 == num%1000 ) {
 			System.out.println("El número es capicúa ");
-		} else if (num < 0 || num > 100000) {
+		} else if (num < 0 || num > 9999) {
 			System.out.println("ERROR: Introduzca un valor entre 0-9999 ");
 		} else {
 			System.out.println("El número no es capicúa ");
