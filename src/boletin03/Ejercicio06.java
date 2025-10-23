@@ -5,7 +5,12 @@ import java.util.Scanner;
 public class Ejercicio06 {
 
 	public static void main(String[] args) {
-		      
+				/*
+				 * PRUEBAS A REALIZAR: 
+				 * 1º) Introducir mes>12; nos tiene que salir error
+				 * 2º) Introducir mes<12; nos sale los días que tiene ese mes
+				 */
+		
 				// Crear Scanner
 				Scanner reader = new Scanner(System.in);
 
@@ -18,19 +23,14 @@ public class Ejercicio06 {
 		        System.out.print("Introduce el número del mes (1-12): ");
 		        mes = reader.nextInt();
 
-		        // Validar mes
-		        if (mes < 1 || mes > 12) {
-		            System.out.println("Mes no válido. Debe estar entre 1 y 12.");  
-		        } else {
-		        	System.out.println("ERROR: Introduce un valor entre 1-12"); 
-		        }
-
 		        // Pedir al usuario que introduzca el año
 		        System.out.print("Introduce el año: ");
 		        año = reader.nextInt();
-
-		        // Comprobar si es bisiesto y mostrar en pantalla
-		        if ((año % 4 == 0 && año % 100 != 0) || (año % 400 == 0)) {
+		        
+		        // Validar mes, comprobar si es bisiesto y mostrar en pantalla
+		        if (mes < 1 || mes > 12) {
+		            System.out.println("Mes no válido. Debe estar entre 1 y 12.");  
+		        } else if ((año % 4 == 0 && año % 100 != 0) || (año % 400 == 0)) {
 		            esBisiesto = true;
 		        }
 

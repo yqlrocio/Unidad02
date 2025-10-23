@@ -7,7 +7,7 @@ public class Ejercicio03 {
 	public static void main(String[] args) {
 		/*
 		 * PRUEBAS A REALIZAR: 
-		 * 1º) Números de DNI
+		 * 1º) Números de DNI y comprobar si la letra obtenida es la del DNI
 		 */
 		
 		// Crear Scanner 

@@ -8,11 +8,8 @@ public class Ejercicio04 {
 	public static void main(String[] args) {
 		/*
 		 * PRUEBAS A REALIZAR: 
-		 * 1º) Números mayores de 9999
-		 * 2º) Números menores de 0
-		 * 3ª) Números como 202, 2002...
-		 * 4º) Números como 3586466 que están fuera del intervalo de 0-9999
-		 * 5ª) Números como 5442 que están dentro del intervalo de 0-9999
+		 * 1º) Hacer la operación e introducir el resultado incorrecto
+		 * 2º) Hacer la operación e introducir el resultado correcto
 		 */
 		
 		// Crear Scanner 

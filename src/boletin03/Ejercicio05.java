@@ -5,6 +5,10 @@ import java.util.Scanner;
 public class Ejercicio05 {
 
 	public static void main(String[] args) {
+		/*
+		 * PRUEBAS A REALIZAR: 
+		 * 1º) Introducir el distancia y días y comprobar si el resultado mostrado en pantalla es correcto
+		 */
 		
 		// Crear Scanner 
 		Scanner reader = new Scanner(System.in);
