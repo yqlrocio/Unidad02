@@ -5,63 +5,38 @@ import java.util.Scanner;
 public class Exercise01 {
 
 	public static void main(String[] args) {
-		
-		// Crear Scanner 
-		Scanner reader = new Scanner(System.in); 
+		// Create Scanner 
+				Scanner reader = new Scanner(System.in); 
+				
+				// Create variable
+				int option; 
+				String answer; 
+				
+				double totalPrice; 
+				
+				
+				//
+				System.out.println("Which screen do you prefer");
+				System.out.println("Which screen do you prefer");
+				
+				// 
+				switch () {
+				
+				}
+				
+				
+				//
+				System.out.println("Do you want antivirus software? (Y / N)");
+				answer = reader.next(); 
+				
+				if (answer.equalsIgnoreCase("Y")) {
+					totalPrice += 65.99; 
+				}
+				System.out.println("Do you want a printer? Y / N");
 
-		// Crear variables 
-		int hora; 
-		int min; 
-		
-		// Crear condición 
-		if (min == 00) {
-			switch (hora) {
-			case 1 -> {
-				System.out.println();
+			
+				// Close Scanner
+				reader.close(); 
 			}
-			case 2 -> {
-				System.out.println(numDNI + "R");
-			}
-			case 3 -> {
-				System.out.println(numDNI + "W");
-			}
-			case 4 -> {
-				System.out.println(numDNI + "A");
-			}
-			case 5 -> {
-				System.out.println(numDNI + "G");
-			}
-			case 6 -> {
-				System.out.println(numDNI + "M");
-			}
-			case 7 -> {
-				System.out.println(numDNI + "Y");
-			}
-			case 8 -> {
-				System.out.println(numDNI + "F");
-			}
-			case 9 -> {
-				System.out.println(numDNI + "P");
-			}
-			case 10 -> {
-				System.out.println(numDNI + "D");
-			}
-			case 11 -> {
-				System.out.println(numDNI + "X");
-			}
-			case 11 -> {
-				System.out.println(numDNI + "B");
-			}
-			case 12 -> {
-				System.out.println(numDNI + "N");
-			}
-			default -> {
-				System.out.println("ERROR: introduce solo 8 cifras");
-			}
- 
+
 		}
-		// Cerrar Scanner 
-		reader.close(); 
-	}
-
-}
