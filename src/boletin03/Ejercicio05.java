@@ -17,6 +17,7 @@ public class Ejercicio05 {
 		double precioBillete; 
 		double distancia; 
 		int estancia; 
+		double precioFinal;
 				
 		// Pedir al usuario que introduzca la distancia a recorrer y el número de días de estancias 
 		System.out.println("Introduzca cuál es la distancia a recorrer: ");
@@ -25,12 +26,14 @@ public class Ejercicio05 {
 		System.out.println("Introduzca cuántos días serán de estancias: ");
 		estancia = reader.nextInt();
 		
+		// Operar el precio del billete antes de entrar a la condición 
+		precioBillete = distancia + 2.5; 
+		
 		// Usando if-else crear condicional para calcular el precio del billete
 		if (estancia > 7 && distancia > 800) {
-			precioBillete = (distancia * 2.5) * 0.3; 
-			System.out.println("Su billete sería: " + precioBillete + "€");
+			precioFinal = precioBillete * 0.3; 
+			System.out.println("Su billete sería: " + precioFinal + "€");
 		} else { 
-			precioBillete = (distancia * 2.5); 
 			System.out.println("Su billete sería: " + precioBillete + "€");
 		}
 		
