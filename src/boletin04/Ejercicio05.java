@@ -1,11 +1,12 @@
-package programming_excercises_part1;
+package boletin04;
 
 import java.util.Scanner;
 
-public class Exercise02 {
+public class Ejercicio05 {
 
 	public static void main(String[] args) {
-		
-	}
 	
+		
+	}		
 }
+	
