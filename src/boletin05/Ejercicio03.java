@@ -6,6 +6,7 @@ public class Ejercicio03 {
 
 	public static void main(String[] args) {
 		
+		// Variable para almacenar la suma total
 		int suma = 0; 
 		
 		// Variable para almacenar la suma total
