@@ -15,9 +15,6 @@ public class Ejercicio02 {
 		// Variable que almacene el número introducido por el usuario
 		int numero; 
 		
-		// Variable para almacenar el contador 
-		int contador; 
-		
 		// Le pedimos al usuario que introduzca un número
 		System.out.println("Introduzca un número: ");
 		numero = reader.nextInt();
@@ -28,7 +25,7 @@ public class Ejercicio02 {
 			}
 		}
 		// Mostrar en pantalla los múltiplos de 3
-		System.out.println("Hay" + contMult + "múltiplos de 3");
+		System.out.println("Hay " + contMult + " múltiplos de 3");
 
 		// Cerramos Scanner
 		reader.close(); 
